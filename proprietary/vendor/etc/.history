@@ -1,0 +1,40 @@
+[< IP >]
+IP: 192.168.2.108
+ 
+[< SRC DIRECTORY >]
+/home/shen/ml218_emdoor_source
+ 
+[< CONFIGS >]
+DDR: 
+	MT53E512M32D1//RS512M32LZ4D2ANP_75BT
+LCM: 
+	
+CAMERA:
+	[back]: ov5648_mipi_raw
+	[front]: ov2680_mipi_raw
+TP: 
+	
+Sensor: 
+	STK8312(G-sensor): n
+	STK8BA50(G-sensor): n
+Battery: 
+	
+Vibrator: n
+Modem: 
+	TK_MD_BASIC_MOLY.LR12A.R3.MP.V208.4_t90
+ 
+ 
+[< BRANCH INFO >]
+Current:
+* (HEAD detached from 17602f111b)
+ 
+#############################################################
+ 
+[< GIT LOG >]
+-----------------------------
+[< main >]
+>>>>>
+commit 18d600e70ef141bff0b47493ce9d692e47ccfd07
+commit 17602f111b8a6c9e62705aabed45702cc0f6304e
+<<<<<
+-----------------------------

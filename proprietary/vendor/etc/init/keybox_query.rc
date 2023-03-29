@@ -1,0 +1,9 @@
+# change keybox_query
+service keybox_query /vendor/bin/keybox_query
+    user root
+    group system drmrpc
+    disabled
+    oneshot
+
+on post-fs-data
+    start keybox_query

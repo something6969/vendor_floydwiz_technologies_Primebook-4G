@@ -1,0 +1,9 @@
+service savelog /vendor/bin/savelog
+    user root
+    group system
+    disabled
+    oneshot
+
+on boot
+    start savelog
+	mkdir /data/vendor/klog 0775 system system
